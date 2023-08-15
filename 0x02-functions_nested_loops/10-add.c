@@ -1,13 +1,10 @@
-#include "holberton.h"
-/**
- * add - adds two integers together
- * @a: value to be used for sum.
- * @b: second value to be use for sum.
- *
- * Return: int (Sum)
- */
-int add(int a, int b)
-{
-	return (a + b);
-}
+#include "main.h"
+#include <stdio.h>
 
+int main(void) {
+    int n;
+
+    n = add(89, 9);
+    printf("%d\n", n);
+    return 0;
+}
