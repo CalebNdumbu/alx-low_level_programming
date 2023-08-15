@@ -1,12 +1,17 @@
+
 #include "main.h"
 
 /**
- * _islower - checks for lowercase character.
- * @c: the character to be checked
- * Return: 1 if c is lowercase, otherwise 0
-**/
-
-int _islower(int c)
+ * _isalpha - Checks if a character is alphabetic.
+ * @c: The character to be checked.
+ *
+ * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
+ */
+int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') ? 1 : 0);
+	if ((c >= 'a' && c <= 'z') ||
+	    (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }
