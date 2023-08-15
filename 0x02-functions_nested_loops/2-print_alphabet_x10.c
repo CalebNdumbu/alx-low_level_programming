@@ -1,16 +1,16 @@
 #include "main.h"
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	unsigned int i;
-	char c[] = "_putchar";
+	char i, j;
 
-	for (i = 0; i <= 7; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		_putchar(c[i]);
+		for (j = 'a'; j <= 'z'; j++)
+		{
+			_putchar(j);
+		}
+
+		_putchar('\n');
 	}
-
-	_putchar('\n');
-
-	return (0);
 }
