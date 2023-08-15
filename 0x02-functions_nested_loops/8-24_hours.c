@@ -1,20 +1,26 @@
 #include "main.h"
 
+/**
+ * print_sign - prints the sign of a number.
+ * @n: the number to be checked
+ * Return: 1 if n is greater than zero, 0 if n is zero, otherwise -1
+**/
 
-void jack_bauer(void)
+int print_sign(int n)
 {
-	int i, j;
-
-	for (i = 0; i <= 23; i++)
+	if (n > 0)
 	{
-		for (j = 0; j <= 59; j++)
-		{
-			_putchar((i / 10) + '0');
-			_putchar((i % 10) + '0');
-			_putchar(':');
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
-			_putchar('\n');
-		}
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
 	}
 }
