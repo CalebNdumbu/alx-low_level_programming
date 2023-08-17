@@ -1,11 +1,17 @@
-#include "main.h"
+#ifndef FILE_MAIN
+#define FILE_MAIN
 
-/**
- * _isupper - checks for uppercase character
- * @c: the character to be checked
- * Return: 1 if c is uppercase, 0 otherwise
- */
-int _isupper(int c)
-{
-	return (c >= 'A' && c <= 'Z');
-}
+int _putchar(char c);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
+void print_number(int n);
+
+#endif
