@@ -3,10 +3,8 @@
 /**
  * _strlrn - returns the length of a string
  * @s: string to evaluate length of
- * 
- * Return : length of the string
+ * Return: length of the string
  */
- 
  int _strlen(char *s)
  {
      int i;
