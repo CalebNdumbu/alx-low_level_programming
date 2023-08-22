@@ -7,12 +7,12 @@ include "main.h"
  * Return: str to standout
  */
  void _puts(char *str)
- {
+{
+	int i;
 
-	while (*str != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(*str);
-		str++;
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
