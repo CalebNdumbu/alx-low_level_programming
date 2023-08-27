@@ -1,27 +1,50 @@
-File: main.h is the header file containing all the function prototypes used in this project.
+* **0. 98 Battery st.**
+  * [0-reset_to_98.c](./0-reset_to_98.c): C function that takes a pointer to an
+  `int` as a parameter and updates the value it points to to `98`.
 
-File: 0-reset_to_98.c is a function that takes a pointer to an int as parameter and updates the value it points to to 98.
+* **1. Don't swap horses in crossing a stream**
+  * [1-swap.c](./1-swap.c): C function that swaps the value of two integers.
 
-File: 1-swap.c is a function that swaps the values of two integers.
+* **2. This report, by its very length, defends itself against the risk of being read**
+  * [2-strlen.c](./2-strlen.c): C function that returns the length of a string.
 
-File: 2-strlen.c is a function that returns the length of a string.
+* **3. I do not fear computers. I fear the lack of them**
+  * [3-puts.c](./3-puts.c): C function that prints a string, followed by a new line,
+  to `stdout`.
 
-File: 3-puts.c is a function that prints a string, followed by a new line, to stdout.
+* **4. I can only go one way. I've not got a reverse gear**
+  * [4-print_rev.c](./4-print_rev.c): C function that prints a string, in reverse,
+  followed by a new line.
 
-File: 4-print_rev.c is a function that prints a string, in reverse, followed by a new line.
+* **5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes**
+  * [5-rev_string.c](./5-rev_string.c): C function that reverses a string.
 
-File: 5-rev_string.c is a function that reverses a string.
+* **6. Half the lies they tell about me aren't true**
+  * [6-puts2.c](./6-puts2.c): C function that prints every other character of a string,
+  followed by a new line.
 
-File: 6-puts2.c is a function that prints one char out of 2 of a string, followed by a new line.
+* **7. Winning is only half of it. Having fun is the other half**
+  * [7-puts_half.c](./7-puts_half.c): C function that prints the second half of a string,
+  followed by a new line.
 
-File: 7-puts_half.c is a function that prints half of a string, followed by a new line.
+* **8. Arrays are not pointers**
+  * [8-print_array.c](./8-print_array.c): C function that prints an input `n` elements
+  of an array of integers, followed by a new line.
+    * Numbers are separated by a comma followed by a space.
+    * Numbers are displayed in the same order as they are stored in the array.
 
-File: 8-print_array.c is a function that prints n elements of an array of integers, followed by a new line.
+* **9. strcpy**
+  * [9-strcpy.c](./9-strcpy.c): C function that copies the string pointed to by
+  `src`, including the terminating null byte (`\0`), to the buffer pointed to by `dest`.
+    * Returns the pointer to `dest`.
 
-File: 9-strcpy.c is a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+* **10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers**
+  * [100-atoi.c](./100-atoi.c): C function that converts a string to an integer
+  without using `long`, new variable arrays, or hard-coded special values, as follows:
+    * The number in the string can be preceded by an infinite number of characters.
+    * Takes into account all `+` and `-` signs before the number.
+    * If there are no numbers in the string, the function returns `0`.
 
-File: 100-atoi.c is a function that convert a string to an integer.
-
-File: 101-keygen.c is a program that generates random valid passwords for the program 101-crackme.
-
-File: _putchar.c contains the _putchar() function definition.
+* **11. Don't hate the hacker, hate the code**
+  * [101-keygen.c](./101-keygen.c): C program that generates random valid passwords
+  for the program [101-crackme](https://github.com/holbertonschool/0x04.c).
