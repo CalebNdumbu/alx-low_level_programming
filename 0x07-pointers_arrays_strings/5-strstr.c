@@ -10,14 +10,13 @@ char *_strstr(char *haystack, char *needle)
     char *result = haystack;
     char *pneedle = needle;
     
-
     while(*haystack)
     {
         while(*needle)
         {
             if(*haystack != *needle)
             {
-                break;
+                    break;
             }
             
             haystack++;
@@ -34,4 +33,3 @@ char *_strstr(char *haystack, char *needle)
     }
     return (0);
 }
-
