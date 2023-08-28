@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * _strpbrk - Locates occurrence in the s of any bytes in the accept
  * @s: source string
@@ -8,7 +7,6 @@
  * 
  * Return: new string
  */
-
 char *_strpbrk(char *s, char *accept)
 {
     int i;
@@ -26,5 +24,3 @@ char *_strpbrk(char *s, char *accept)
     }
     return (NULL);
 }
-
-
