@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strpbrk - funtion to locate
+ * _strstr - funtion to locate
  * @s: ptr to char
  * @accept: ptr to char
  * 
