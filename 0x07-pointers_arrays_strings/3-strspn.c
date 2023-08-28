@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _strspn - gets length of a prefix substring
  * @s: string from which to look
@@ -7,7 +5,6 @@
  *
  * Return: Length of characters
  */
-
 
 unsigned int _strspn(char *s, char *accept)
 {
