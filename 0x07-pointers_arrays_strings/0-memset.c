@@ -5,7 +5,7 @@
  *@b: the desired value (a constant byte) to fill the memory with.
  *@n: the number of bytes to be changed.
  * 
- * Return: new array with filled bytes
+ *Return: new array with filled bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -15,6 +15,6 @@ char *_memset(char *s, char b, unsigned int n)
         s[i] = b;
         n--;
     }
-    return(s);
+    return (s);
 }
 
