@@ -17,7 +17,7 @@
                 _putchar(*(*(i + a) + j));
             }
          
-        putchar('\n');
+        _putchar('\n');
         }
  }
 
