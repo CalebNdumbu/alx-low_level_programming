@@ -5,26 +5,25 @@
 * @needle: pointer to char
 * Return: 0
 */
-char *_strstr(char *haystack, char *needle)
 {
     char *result = haystack;
     char *pneedle = needle;
     
-    while(*haystack)
+    while (*haystack)
     {
-        while(*needle)
+        while (*needle)
         {
-            if(*haystack != *needle)
+            if (*haystack != *needle)
             {
-                    break;
+                break;
             }
             
             haystack++;
             needle++;
         }
-        if(!*needle)
+        if (!*needle)
         {
-            return(result);
+            return (result);
         }
         
         needle = pneedle;
@@ -33,3 +32,4 @@ char *_strstr(char *haystack, char *needle)
     }
     return (0);
 }
+
