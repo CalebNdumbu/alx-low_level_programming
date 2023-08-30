@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sqrt - return natural square root of n
+ * _sqrt - return natural square root of n
  * @n: This is the value
  *
  * Return: 1 on success
