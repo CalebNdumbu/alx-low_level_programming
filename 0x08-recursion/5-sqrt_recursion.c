@@ -20,7 +20,7 @@ int sqrt(int a, int b)
 
 /**
  * _sqrt_recursion - calls the sqrt function
- *
+ *@n : int
  */
 int _sqrt_recursion(int n)
 {
