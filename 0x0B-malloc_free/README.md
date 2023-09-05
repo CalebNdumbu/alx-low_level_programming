@@ -26,7 +26,7 @@
 if NULL is passed, treat it as an empty string
 - The function should return NULL on failure
 
-####[3. If you even dream of beating me you'd better wake up and apologize](3-alloc_grid.c)
+[3. If you even dream of beating me you'd better wake up and apologize](3-alloc_grid.c)
 
 - Write a function that returns a pointer to a 2 dimensional array of integers.
 
@@ -35,14 +35,14 @@ if NULL is passed, treat it as an empty string
 - The function should return NULL on failure
 - If width or height is 0 or negative, return NULL
 
-####[4. It's not bragging if you can back it up](4-free_grid.c)
+[4. It's not bragging if you can back it up](4-free_grid.c)
 
 Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
 Prototype: void free_grid(int **grid, int height);
 Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 
-####[5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](100-argstostr.c)
+[5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](100-argstostr.c)
 
 - Write a function that concatenates all the arguments of your program.
 
@@ -51,7 +51,7 @@ Note that we will compile with your alloc-grid.c file. Make sure it compiles.
 - Returns a pointer to a new string, or NULL if it fails
 - Each argument should be followed by a \n in the new string  
 
-####[6. I will show you how great I am] (101-strtow.c)
+[6. I will show you how great I am] (101-strtow.c)
 
 - Write a function that splits a string into words.
 
