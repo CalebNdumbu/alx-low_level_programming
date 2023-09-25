@@ -1,12 +1,12 @@
 #include "lists.h"
-
 /**
- * free_listint2 - Frees a listint_t list.
- * @head: A pointer to a pointer to the list to be freed.
+ * free_listint2 - frees a listint_t list.
+ * @head: pints to the list to be freed.
  */
+
 void free_listint2(listint_t **head)
 {
-    if (!*head)
+    if (head == NULL)
         return;
 
     listint_t *temp;
@@ -20,4 +20,3 @@ void free_listint2(listint_t **head)
 
     *head = NULL;
 }
-
