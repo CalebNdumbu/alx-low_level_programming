@@ -15,7 +15,11 @@ size_t print_listint(const listint_t *h)
 
     while (ptr != NULL)
     {
+<<<<<<< HEAD
         printf("%d\n", ptr->n);
+=======
+        printf("%d\n, ", ptr->n);
+>>>>>>> 465021a63000f6598e6c8f86e4f67b1b5d7f04fb
         number++;
         ptr = ptr->next;
     }
